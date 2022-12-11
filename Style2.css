@@ -1,0 +1,166 @@
+
+
+  body {background: brown;width: 1400px;}
+  html {background-image: url(oldwood.jpeg);}
+body {
+
+color: darkblue;
+background-image: url}
+h1, h2 {
+color: #8B0000;
+font-family: cursive; text-align: center;
+}
+h1 {font-size: 50;}
+p {font-size: 25px;}
+li {
+margin-bottom: 3px;
+}
+ul{
+  float: auto;
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 40px 40px;
+}
+h3{
+  Color: black;
+  font-family: sans-serif;
+ font: lighter;
+ font-size: 18;
+ text-align: center;
+}
+
+  
+      html, body {
+      min-height: 100%;
+      }
+      body, div, form, input, select { 
+      padding: 1;
+      margin: 8;
+      outline: #8B0000;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #8b0000;
+      line-height: 15px;
+      }
+      h1, h4, p {
+ margin: 15px 0 4px;
+      font-weight: 400;
+      }
+      span {
+      color: #8B0000;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 3px;
+      }
+      form {
+      width: 100%;
+      padding: 10px;
+      background: silver;
+      box-shadow: 0 2px 5px #ccc; 
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      vertical-align: middle;
+      }
+      input:hover, textarea:hover, select:hover {
+      outline: none;
+      border: 1px solid #095484;
+      }
+      .name input {
+      margin-bottom: 10px;
+      }
+      select {
+      padding: 7px 0;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      background: #e6eef7;
+      }
+      option {
+      background: #fff;
+      }
+      select, table {
+      width: 100%;
+      }
+      .day-visited, .time-visited {
+      position: relative;
+      }
+   
+      
+      position: absolute;
+      top: 8px;
+      font-size: 20px;
+      }
+      .day-visited i, .time-visited i {
+      right: 5px;
+      z-index: 1;
+      color: #a9a9a9;
+      }
+      .question-answer label {
+      display: block;
+      padding: 0 20px 10px 0;
+      }
+      .question-answer input {
+      width: auto;
+      margin-top: -2px;
+      }
+      th, td {
+      width: 18%;
+      padding: 15px 0;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      vertical-align: unset;
+      line-height: 18px;
+      font-weight: 400;
+      word-break: break-all;
+      }
+      .first-col {
+      width: 25%;
+      text-align: left;
+      }
+      textarea {
+      width: calc(100% - 6px);
+      }
+      .btn-block {
+      margin-top: 20px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      -webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #095484;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background-color: #0666a3;
+      }
+      @media (min-width: 568px) {
+      .name {
+      display: flex;
+      justify-content: space-between;
+      }
+      .name input {
+      width: 47%;
+      margin-bottom: 0;
+      }
+      th, td {
+      word-break: keep-all;
+      }
+      

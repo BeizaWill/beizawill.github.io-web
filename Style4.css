@@ -1,0 +1,59 @@
+<div>
+  body {background: red;width: 1400px;
+  	line-height: 600px;}
+  html {background-image: url(oldwood.jpeg);}
+body {
+color: white;}
+background-image: url}
+h1, h2 {
+color: #8B0000;
+font-family: cursive; text-align: auto;
+}
+h1 {font-size: 50;}
+p {font-size: 25px;}
+li {
+margin-bottom: 12px;
+}
+html {;}
+</div
+ul{
+	float: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.maindiv{
+	background-image: url(berrysaladhero.jpg);
+	background-size: 100% 100%;
+	width: 66%;
+	height: 500px;
+	top: 50%;
+	left:  50; 
+	transform: translate(15%, -25%); 
+	position: absolute;
+	margin-top: 30px;
+	box-shadow: 1px 2px 10px 5px white;
+	animation: slider 10s infinite linear;
+}
+
+@keyframes slider {
+	0%{background-image: url(salad.jpg);}
+	25%{background-image: url(pasta.jpg);}
+	50%{background-image: url(salad1.jpg);}
+	75%{background-image: url(Rib.jpg);}
+	100%{background-image: url(hamburger1.jpg);}
+
+}
+ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 16px;
+}
+
+ul li a{
+	text-decoration: underline;
+	color: darkslateblue;
+	font-family:  !important;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
